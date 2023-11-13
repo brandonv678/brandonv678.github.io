@@ -13,3 +13,24 @@
     Formula SAE racecar
     Machinist for rpi research institute
     Scaled model cnc curved bridge design
+
+
+
+  what is B7 in folder New Production Line?
+  In New Production Line/Building Extension, which project do those images belong to?
+  You mentioned 2 "bottle" projects, just verifying that the "bottle fill machine" folder is the  "High volume production bottle fill system", not the "Pressurized bottle piercing machine"
+  Which project does the "control box wiring fixture" folder belong to?
+  For the CRIMP tool project, I added a video to the project page button, and the respective images to PDF button, lmk if that's good
+  For the Pipe Fixtures project, I added all the pdfs into one giant PDF, you can see it under the PDF button for the "High Volume Production Pipe Fixtures" project, idk if you want all of those 95 pages, lmk how you want to show it
+  
+
+
+  Stuff I need from you
+  1) Resume
+  2) Job/School Descriptions for the About Page
+  3) I need a main photo for the Pipe Fixtures project
+  4) Explanation of where the New Production Line / Building Extension folder goes to
+  5) Abtract descriptions of all the projects mentioned
+  6) Maybe another image to go on the Home Page, it would be above the "Welcome!" text
+  7) Decision on what info to put in the bubble under your image in the Home Page, maybe your employment history or most impressive past projects
+
