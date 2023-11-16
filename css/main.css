@@ -8018,6 +8018,16 @@ pubtit {
   padding-right: 10px;
   padding-bottom: 4px;
 }
+
+#gridid .rowl4 {
+  margin-bottom: 0px;
+  background-color: #0f0f0f;
+  border-radius: 8px;
+  padding-top: 7px;
+  padding-right: 10px;
+  padding-bottom: 4px;
+}
+
 .col-sm-1,
 .col-sm-2,
 .col-sm-3,

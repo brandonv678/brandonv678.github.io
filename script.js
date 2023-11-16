@@ -1,2 +1,3 @@
-
-// JavaScript code can go here
+document.getElementById("pdfDropdownButton").onclick = function () {
+  document.getElementById("pdfDropdown").classList.toggle("show");
+};
