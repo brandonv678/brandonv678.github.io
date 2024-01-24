@@ -1,56 +1,5 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Projects - Brandon Villanueva</title>
-    <meta name="description" content="academic website" />
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-    <style>
-      body,
-      html {
-        margin: 0;
-        padding: 0;
-        height: 100%;
-        background-color: black; /* All black background */
-      }
-
-      .sidebar {
-        text-align: center;
-        width: 150px; /* Width of the sidebar */
-        background-color: black;
-        padding: 20px;
-        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-        height: 100vh; /* Full viewport height */
-        position: fixed; /* Sidebar stays in place when scrolling */
-      }
-
-      .header-text {
-        text-align: center;
-        margin-top: 25px;
-        margin-right: 120px;
-        color: white;
-        font-size: 200%;
-        margin-left: 200px; /* Shifts the header text to the right */
-      }
-
-      .main-content {
-        margin-left: 200px; /* Shifts the main content to the right */
-        padding: 50px;
-        color: white; /* Text color */
-        padding-bottom: 100px;
-      }
-
-      .sidebar ul {
-        list-style-type: none;
-        padding: 0;
-      }
-
-      .sidebar li a {
-        text-decoration: none;
-<!doctype html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -58,33 +7,36 @@
     <title>Projects - Brandon Villanueva</title>
     <meta name="description" content="academic website" />
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-    <link rel="stylesheet" href="styles.css"> <!-- External CSS File -->
+    <link rel="stylesheet" href="styles.css"> <!-- Ensure this CSS file exists and is properly linked -->
 </head>
 <body>
-    <div class="sidebar">
+    <nav class="sidebar">
         <ul>
             <li><a href="#problem">Problem</a></li>
             <li><a href="#images">Images</a></li>
             <li><a href="#solution">Solution</a></li>
         </ul>
-    </div>
-
-    <div class="content">
-        <div class="header-text">New Production Line Project Management</div>
+    </nav>
 
     <div class="main-content">
+      <header class="header-text"></header>
+
       <section id="problem">
-        <h1>I didn't know how to do this. I solved it the following way.</h1>
+        <div class="well-abstract">        <center><h1>New Production Line Project Management</h1></center>
+</div>
       </section>
+
       <section id="images">
-        <a href="/images/pubpic/new_prod_line.png" target="_blank">
-          <img
-            src="/images/pubpic/new_prod_line.png"
-            class="img-responsive"
-            width="20%"
-            style="float: center"
-          />
-        </a>
+        <div class="well-abstract" style="text-align: center">
+          <a href="/images/pubpic/new_prod_line.png" target="_blank">
+            <img
+              src="/images/pubpic/new_prod_line.png"
+              alt="New Production Line"
+              class="img-responsive"
+              style="width: 20%"
+            />
+          </a>
+        </div>
       </section>
 
       <section id="solution">
@@ -103,7 +55,7 @@
           other relevant corporate personnel that I didn’t even think to invite.
           So in my second week of employment as an intern, I found myself
           presenting a plan for a production line layout to a whole bunch of
-          people far more qualified than me to be responsible for the project. I
+          people far more qualified than me to be responsible for the project. <p>I
           distinctly remember how nervous I was before that meeting, but once I
           got into my element, it felt natural. I defended my layout against
           others who, apparently, were planning to make a layout completely
@@ -117,7 +69,7 @@
           failure isn’t expected, it is imminent. When you know that failure, at
           least the first time is imminent, all of a sudden the fear of it
           vanishes and you are left with the uniquely energizing feeling of
-          exploring the unknown for the first time. I love that feeling. Over
+          exploring the unknown for the first time. I love that feeling.</p> Over
           the next few months, I redesigned the layout many times--even as we
           broke ground on a small construction project to expand that warehouse
           into a nearby one. This, of course, is because the machine itself
@@ -159,7 +111,6 @@
           to their own pages.
         </div>
       </section>
-      <!-- Add other sections here -->
-    </div>
+    </main>
   </body>
 </html>

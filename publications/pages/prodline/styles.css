@@ -3,14 +3,14 @@ html {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-color: #f5f5f5; /* Softer background color */
+  background-color: #e8e8e8; /* Grey background for entire page content */
   font-family: Arial, sans-serif; /* Professional font */
 }
 
 .sidebar {
   text-align: center;
-  width: 200px;
-  background-color: #333; /* Dark grey sidebar */
+  width: 100px; /* Narrower sidebar */
+  background-color: #333; /* Retain dark grey sidebar */
   padding: 20px;
   height: 100vh;
   position: fixed;
@@ -18,25 +18,31 @@ html {
 
 .header-text {
   text-align: left;
-  margin: 0;
-  padding: 20px 0;
-  background-color: #4caf50; /* Green header */
-  color: white;
+  background-color: transparent; /* Transparent or same as body to blend in */
+  color: black; /* Text color changed to black for visibility */
   font-size: 24px;
-  margin-left: 200px; /* Align with sidebar */
+  padding-left: 120px; /* Additional padding to align with the main content */
+  position: fixed; /* Make header fixed like sidebar */
+  width: calc(100% - 100px); /* Adjust width to account for sidebar */
+  top: 0;
+  left: 100px;
 }
 
 .main-content {
-  margin-left: 220px; /* Align with sidebar */
-  padding: 20px;
-  background-color: white;
+  margin-left: 120px; /* Align with narrower sidebar */
+  padding: 20px 40px; /* Add padding to both left and right sides */
+  background-color: transparent; /* Transparent or same as body to blend in */
   color: black; /* Default text color */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  min-height: calc(
+    100vh - 40px
+  ); /* Adjust height to fill viewport minus header */
+  box-shadow: none; /* Remove box shadow if not needed */
 }
 
 .sidebar ul {
   list-style-type: none;
   padding: 0;
+  margin: 0; /* Remove default margin */
 }
 
 .sidebar li a {
@@ -52,20 +58,12 @@ html {
   background-color: #555; /* Hover effect */
 }
 
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .well-abstract {
   background-color: #e8e8e8; /* Light grey background for abstract */
-  padding: 15px;
-  margin-top: 20px;
-  border-radius: 5px; /* Rounded corners */
 }
 
 .img-responsive {
-  max-width: 100%;
-  height: auto;
+  max-width: 300px; /* Increase the maximum width of the image */
+  height: auto; /* Maintain the aspect ratio */
+  margin-bottom: 20px; /* Space below the image */
 }
