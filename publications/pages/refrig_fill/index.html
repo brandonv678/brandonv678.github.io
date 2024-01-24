@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projects - Brandon Villanueva</title>
+    <meta name="description" content="academic website" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background-color: black; /* All black background */
+      }
+
+      .sidebar {
+        text-align: center;
+        width: 150px; /* Width of the sidebar */
+        background-color: black;
+        padding: 20px;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        height: 100vh; /* Full viewport height */
+        position: fixed; /* Sidebar stays in place when scrolling */
+      }
+
+      .header-text {
+        text-align: center;
+        margin-top: 25px;
+        margin-right: 120px;
+        color: white;
+        font-size: 200%;
+        margin-left: 200px; /* Shifts the header text to the right */
+      }
+
+      .main-content {
+        margin-left: 200px; /* Shifts the main content to the right */
+        padding: 50px;
+        color: white; /* Text color */
+        padding-bottom: 100px;
+      }
+
+      .sidebar ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .sidebar li a {
+        text-decoration: none;
+        color: white; /* Text color */
+        font-size: 140%;
+        display: block;
+        padding: 10px;
+        transition: background-color 0.3s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidebar">
+      <ul>
+        <li><a href="#problem">Problem</a></li>
+        <li><a href="#images">Images</a></li>
+
+        <li><a href="#solution">Solution</a></li>
+      </ul>
+    </div>
+
+    <div class="header-text">Crimp Tool</div>
+
+    <div class="main-content">
+      <section id="problem">
+        <h1>I didn't know how to do this. I solved it the following way.</h1>
+      </section>
+      <section id="images">
+        <a href="/images/pubpic/refrig.png" target="_blank">
+          <img
+            src="/images/pubpic/refrig.png"
+            class="img-responsive"
+            width="20%"
+            style="float: center"
+          />
+        </a>
+      </section>
+
+      <section id="solution">
+        <div class="well-abstract">
+          This project was interesting. The deadline was very tight, I had to
+          finish it on short notice before leaving mainstream to return to
+          school. Because of that, I didn’t get to build it or oversee its
+          construction myself. Still, I think the problem required prior
+          hands-on knowledge of fittings and plumbing because, without that, one
+          could easily make this design very difficult or impossible to build.
+          The problem was that we were creating a new, relatively small,
+          production line for a run of units. These units demanded to be
+          evacuated and charged with refrigerant at a point in the line, so at
+          first we looked at purchasing an industry-standard machine.
+          High-quality machines that perform this operation can reach $150,000.
+          Naturally, we didn’t want to spend that money so we looked into
+          producing our own. In theory, it was possible to replicate, so I took
+          a large old electrical cabinet and had it emptied out to use as a pipe
+          packaging container. That is what the pipes in the imagery below are
+          packaged inside. Ultimately I predicted the cost of this to be in the
+          low thousands which is a significant improvement over the other
+          off-the-shelf options. Fortunately, we have another refrigerant fill
+          system in use in another part of our facility, so I was able to take
+          inspiration from that design for the process.
+        </div>
+      </section>
+      <!-- Add other sections here -->
+    </div>
+  </body>
+</html>
