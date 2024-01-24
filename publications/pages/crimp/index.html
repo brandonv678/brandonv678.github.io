@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projects - Brandon Villanueva</title>
+    <meta name="description" content="academic website" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background-color: black; /* All black background */
+      }
+
+      .sidebar {
+        text-align: center;
+        width: 150px; /* Width of the sidebar */
+        background-color: black;
+        padding: 20px;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        height: 100vh; /* Full viewport height */
+        position: fixed; /* Sidebar stays in place when scrolling */
+      }
+
+      .header-text {
+        text-align: center;
+        margin-top: 25px;
+        margin-right: 120px;
+        color: white;
+        font-size: 200%;
+        margin-left: 200px; /* Shifts the header text to the right */
+      }
+
+      .main-content {
+        margin-left: 200px; /* Shifts the main content to the right */
+        padding: 50px;
+        color: white; /* Text color */
+        padding-bottom: 100px;
+      }
+
+      .sidebar ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .sidebar li a {
+        text-decoration: none;
+        color: white; /* Text color */
+        font-size: 140%;
+        display: block;
+        padding: 10px;
+        transition: background-color 0.3s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidebar">
+      <ul>
+        <li><a href="#problem">Problem</a></li>
+        <li><a href="#images">Images</a></li>
+
+        <li><a href="#solution">Solution</a></li>
+      </ul>
+    </div>
+
+    <div class="header-text">Crimp Tool</div>
+
+    <div class="main-content">
+      <section id="problem">
+        <h1>I didn't know how to do this. I solved it the following way.</h1>
+      </section>
+      <section id="images">
+        <a href="/images/pubpic/crimp2.gif" target="_blank">
+          <img
+            src="/images/pubpic/crimp2.gif"
+            class="img-responsive"
+            width="20%"
+            style="float: center"
+          />
+        </a>
+      </section>
+
+      <section id="solution">
+        <div class="well-abstract">
+          This problem was straightforward. Our operators were using large,
+          unwieldy crimpers to crimp fairly large power cables for a unit we
+          produced. These were so inconvenient that they usually required two
+          people to use-- it was inefficient. At first, I looked into purchasing
+          an automatic crimper for that size wire. The prices were absurdly
+          expensive for an automatic air pressure crimper. Seeing this, I began
+          designing my own method to crimp the cables. This is image 1, the
+          first design. The first design looked cool and worked in theory, but
+          after I ran the design and my force calculations by another engineer,
+          he helped me realize that I could solve the problem more effectively
+          with an entirely different design. So I scrapped that and went back to
+          the drawing board with a fresh perspective. The next design I came up
+          with was sleeker, cheaper, and much more effective at solving the
+          crimp force problem with less input force. That design is image 2. The
+          tricky part for me at first was calculating the crimp force at the
+          jaws based on the output from the air pressure actuator. This is what
+          I got wrong with the first design so I wanted to make sure I taught
+          myself correctly, although I hadn’t taken any engineering classes up
+          to that point. The real challenge was ensuring that the crimps from my
+          machine would pass the quality control inspection
+          procedure--everything had to pass based on government-required
+          standards. After triple-checking my calculations, I spent the one or
+          two thousand dollars that this comparatively cheap project cost and
+          sent the drawings over to our machine shop. The end product came
+          together like a Lego set--it was particularly satisfying. I also
+          3D-printed a mount for the final result, image 3, and a safety cover
+          to prevent wandering fingers from accidentally getting crimped.
+          Overall, this product was a great success. Not only were the operators
+          thrilled by the trouble I saved them, but our throughput on these
+          cables improved tremendously.
+        </div>
+      </section>
+      <!-- Add other sections here -->
+    </div>
+  </body>
+</html>
